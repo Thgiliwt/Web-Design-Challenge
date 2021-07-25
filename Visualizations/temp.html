@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Max Temperature</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/sketchy/bootstrap.min.css" integrity="sha384-RxqHG2ilm4r6aFRpGmBbGTjsqwfqHOKy1ArsMhHusnRO47jcGqpIQqlQK/kmGy9R" crossorigin="anonymous">
+        <link rel="stylesheet" href="../style.css" type="text/css">
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><span class="underline">Latitude</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="navbarColor03">
+                <ul class="navbar-nav ml-auto">                
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                      <a class="dropdown-item" href="humidity.html">Humidity</a>
+                      <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                      <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="../datapage.html">Data Table</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../comparison.html">Comparison</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../datapage.html">Data</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+        </nav>
+
+        <div class="container content">    
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="col-md-12">
+                        <h2>Summary: Latitude vs.<span style="color:brown">Max Temperature</span></h2>
+                        <hr>
+                        <img src="../Resources/Images/Fig1.png" width="100%" alt="temperature">
+                        <p>This is a relatively perfect match to the reality as from the earth equator at 0 degree of latitude (or say -23.43D to +23.43D are the tropic zones) , the temperature drops down to either north and south. If we change the xlabel to the absolute values, it is clearly to say that as the latitude increases, the temperature will drop down. Hence it will show a strong correlation between these two factors.</p>
+                    </div>
+                </div>
+                <!--visualization adjustments-->
+                <div class="col-md-4">
+                    <div class="col-md-12">
+                        <h2>Visualizations</h2>
+                        <hr>
+                        <div class="row">
+                            <div class="col-3 col-md-6">
+                                <a href="temp.html"><img src="../Resources/Images/Fig1.png" width="100%"  alt="temperature">
+                                </a> 
+                            </div>
+                            <div class="col-3 col-md-6">
+                                <a href="humidity.html"><img src="../Resources/Images/Fig2.png" width="100%" alt="humidity"></a>
+                            </div>
+                       
+                            <div class="col-3 col-md-6">
+                                <a href="cloudiness.html"><img src="../Resources/Images/Fig3.png" width="100%"  alt="cloudiness"></a>
+                            </div>
+    
+                            <div class="col-3 col-md-6">
+                                <a href="windspeed.html"><img src="../Resources/Images/Fig4.png" width="100%"  alt="wind speed"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
