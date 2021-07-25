@@ -12,4 +12,4 @@ Webpage settings, such as the grid system, block positioning etc. are very easy 
 
 ### Uncertainties
 1. Within 'Data Page', somehow my table does not showing the 'striped' and 'hover' features. Can't figure out why.
-2. 
+2. Webpage color doesn't fit for my theme...
